@@ -1,0 +1,12 @@
+# Your own results. Regenerated every run; no reason to commit them.
+results/
+
+# Your name and SJSU ID. If you fork this repo publicly, this keeps them out of it.
+student.txt
+
+# Your report. Also kept out of a public fork, so your answers stay yours.
+report.md
+
+__pycache__/
+*.pyc
+.DS_Store

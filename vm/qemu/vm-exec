@@ -1,0 +1,7 @@
+#!/bin/sh
+# Runs one command inside the Lab 2 VM, over the SSH port QEMU forwards to 2222.
+# Usage (from your laptop): docker exec lab2-vm vm-exec sudo lab2-panic
+exec ssh -q -i /vm/id_ed25519 -p 2222 \
+  -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -o ConnectTimeout=5 \
+  -o ServerAliveInterval=2 -o ServerAliveCountMax=2 \
+  ubuntu@127.0.0.1 "$@"

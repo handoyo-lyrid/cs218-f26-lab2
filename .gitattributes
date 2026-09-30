@@ -1,0 +1,2 @@
+# The VM scripts and cloud-init file run on Linux, where a Windows line ending breaks them.
+* text=auto eol=lf
