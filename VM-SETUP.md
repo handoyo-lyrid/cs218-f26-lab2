@@ -200,9 +200,12 @@ which you used.
 For a laptop that cannot run a VM. Google Cloud's free tier includes one small `e2-micro` VM
 a month in some US regions, and that machine has 1 GB of memory, the same size as everyone
 else's lab VM (it has two virtual CPUs rather than one, which is worth a sentence in your
-report). The course's Google Cloud education coupon, linked in Course Resources on
-Canvas, sets up the billing account the free tier needs without a credit card. Done as
-written, this route costs nothing.
+report).
+
+The free tier still needs a billing account. **Request the course's Google Cloud education
+credit, $50 per student**, from the item named "Google Cloud Coupon Link" in the Course
+Resources module on Canvas; the link lives on Canvas, not here. Done as written, this route
+stays inside the free tier, so the credit is a safety net rather than something you spend.
 
 You will do everything in **Cloud Shell**, the terminal built into the Google Cloud console:
 it already has Docker, Python and the `gcloud` command, and it runs in your browser. Your
